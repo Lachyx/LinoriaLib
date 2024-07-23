@@ -3541,15 +3541,15 @@ function Library:CreateWindow(...)
 
                     local mPos = InputService:GetMouseLocation();
 
-                    Cursor.Color = Library.AccentColor;
+                    -- Cursor.Color = Library.AccentColor;
 
-                    Cursor.PointA = Vector2.new(mPos.X, mPos.Y);
-                    Cursor.PointB = Vector2.new(mPos.X + 16, mPos.Y + 6);
-                    Cursor.PointC = Vector2.new(mPos.X + 6, mPos.Y + 16);
+                    -- Cursor.PointA = Vector2.new(mPos.X, mPos.Y);
+                    -- Cursor.PointB = Vector2.new(mPos.X + 16, mPos.Y + 6);
+                    -- Cursor.PointC = Vector2.new(mPos.X + 6, mPos.Y + 16);
 
-                    CursorOutline.PointA = Cursor.PointA;
-                    CursorOutline.PointB = Cursor.PointB;
-                    CursorOutline.PointC = Cursor.PointC;
+                    -- CursorOutline.PointA = Cursor.PointA;
+                    -- CursorOutline.PointB = Cursor.PointB;
+                    -- CursorOutline.PointC = Cursor.PointC;
 
                     RenderStepped:Wait();
                 end;
